@@ -5,7 +5,7 @@ from pydantic import BaseModel, Field
 from backend.llm_client import get_customer_service_reply
 
 
-app = FastAPI(title="AI Support")
+app = FastAPI(title="跨境电商 AI 客服助手")
 
 
 class ChatRequest(BaseModel):

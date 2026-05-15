@@ -5,9 +5,9 @@ import streamlit as st
 API_URL = "http://127.0.0.1:8000/chat"
 
 
-st.set_page_config(page_title="AI Support")
+st.set_page_config(page_title="跨境电商 AI 客服助手")
 
-st.title("AI Support")
+st.title("跨境电商 AI 客服助手")
 
 message = st.text_area("请输入客户问题", placeholder="例如：我的订单什么时候发货？")
 
